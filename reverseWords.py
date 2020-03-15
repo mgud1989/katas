@@ -13,7 +13,7 @@ def recorre_letras(words):
     
     for w in words:
         for l in w:
-            yield new_words.append(1)
+            yield new_words.append("letter")
     
         
 
