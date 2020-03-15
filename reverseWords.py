@@ -9,10 +9,15 @@ def reverse_words(text):
 
 def recorre_letras(words):
     
-    letters = []
-    for letter in words:
-        yield letter
-        letters.append(letter)
+    new_words = []
+    
+    for w in words:
+        for l in w:
+            yield new_words.append(1)
+    
+        
 
-    return list(letters)
-print (list(recorre_letras(reverse_words("test"))))
+    return list(new_words)
+
+
+print (list(recorre_letras(reverse_words("test test test"))))
