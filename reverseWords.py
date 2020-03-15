@@ -25,3 +25,7 @@ def reverse (palabra):
 print (reverse_words("test python hola"))
 
 print (reverse("probando palabras"))
+
+l= [1,2,3]
+l.reverse()
+print   (l)
